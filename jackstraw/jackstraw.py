@@ -1,6 +1,6 @@
 from statsmodels.stats.multitest import multipletests
 import numpy as np
-from sklearn.externals.joblib import dump, load
+from joblib import dump, load
 import statsmodels.api as sm
 from math import ceil
 import pandas as pd

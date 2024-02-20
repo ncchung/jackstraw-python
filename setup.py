@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 #     with open('README.rst') as f:
 #            return f.read()
 
-install_requires = ['numpy', 'sklearn', 'scipy', 'statsmodels']
+install_requires = ['numpy', 'scikit-learn', 'scipy', 'statsmodels']
 
 setup(name='jackstraw',
       version='0.0.1',
